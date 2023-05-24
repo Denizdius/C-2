@@ -9,7 +9,11 @@ int main(){
 char word[100] = "iyi_geceler ";
 char word2[100] = "bebis";
 
+
+
 strcat(word,word2);
+
+
 
 printf("\n  Söylemek istdegim sey %s\n",word);
 

@@ -13,7 +13,7 @@ void change(int *x1,int *x2){
     *x1 = *x2;
     *x2 = temp;
 
-    //pointer kulanmazsan global olarak değiştiremezsin
+    //pointer kulanmazsan global olarak değiştiremezsin -tabi static- bilmeden önceydi
 
 
 }
