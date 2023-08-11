@@ -2,7 +2,6 @@
 #include<stdlib.h>
 
 
-
  //then the function m_m is called with matrices A, B, and Multip and their dimensions as parameters.
  // The function uses three for loops to multiply the matrices according to the rules of matrix multiplication and stores the result in matrix Multip. 
  //The resulting matrix Multip is then printed using another nested for loop.
@@ -213,7 +212,7 @@ int main(void){
         size = 2;
 
        det =  determinant(matrix_B,size);
-       printf("Determinant of matrix B = %d\n", det);
+        printf("Determinant of matrix B = %d\n", det);
     }
 
       if(cl_b == rw_b && rw_b == 3 ){
@@ -221,7 +220,7 @@ int main(void){
         size = 3;
 
        det = determinant(matrix_B,size);
-       printf("Determinant of matrix B = %d\n", det);
+        printf("Determinant of matrix B = %d\n", det);
     }
 
 
